@@ -13,8 +13,6 @@ This script checks your email inbox for new messages and forwards them to a spec
 - A Slack Incoming Webhook URL.
 
 ## Setup
-
-1. **Clone the Repository**:
+**Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/email-to-slack-forwarder.git
-   cd email-to-slack-forwarder
+   git clone https://github.com/camillelnne/email-to-slack-forwarder.git
