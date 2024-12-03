@@ -15,4 +15,4 @@ This script checks your email inbox for new messages and forwards them to a spec
 ## Setup
 **Clone the Repository**:
    ```bash
-   git clone https://github.com/camillelnne/email-to-slack-forwarder.git
+   git clone https://github.com/camillelnne/mail2slack.git
