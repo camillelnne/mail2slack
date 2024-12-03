@@ -37,7 +37,6 @@ mail.select("inbox")
 status, messages = mail.search(None, "(UNSEEN)")
 messages = messages[0].split()
 
-print(f"Number of unread emails: {len(messages)}")
 
 # Process each email and forward to Slack
 for mail_id in messages:
@@ -61,7 +60,6 @@ for mail_id in messages:
 
             # Send to Slack
             send_to_slack(subject, sender, date, body)
-            print(f"Forwarded email from {sender} to Slack.")
 
     # Mark the email as seen
     mail.store(mail_id, "+FLAGS", "\\Seen")
