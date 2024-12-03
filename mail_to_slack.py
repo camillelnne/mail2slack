@@ -40,7 +40,7 @@ messages = messages[0].split()
 
 # Process each email and forward to Slack
 for mail_id in messages:
-    status, msg_data = mail.fetch(mail_id, "(RFC822)")
+    status, msg_data = mail.fetch(mail_id, "(BODY.PEEK[])")
 
     for response_part in msg_data:
         if isinstance(response_part, tuple):
