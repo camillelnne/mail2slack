@@ -4,6 +4,8 @@ on:
   schedule:
     # Run daily at 9 PM UTC (10 PM Zurich time)
     - cron: "5 21 * * *"  # Hour:Minute in UTC format
+  workflow_dispatch: # Manual trigger
+
 
 jobs:
   check-emails:
