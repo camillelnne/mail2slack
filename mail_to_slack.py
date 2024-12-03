@@ -61,8 +61,5 @@ for mail_id in messages:
             # Send to Slack
             send_to_slack(subject, sender, date, body)
 
-    # Mark the email as seen
-    mail.store(mail_id, "+FLAGS", "\\Seen")
-
 # Logout
 mail.logout()
