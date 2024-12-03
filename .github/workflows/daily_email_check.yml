@@ -2,8 +2,8 @@ name: Daily Email to Slack
 
 on:
   schedule:
-    # Run daily at 9 PM UTC (10 PM Zurich time)
-    - cron: "*/1 * * * *"  # Hour:Minute in UTC format
+    # Run daily at 8 AM UTC (9 AM Zurich time)
+    - cron: "0 8 * * *"  # Hour:Minute in UTC format
   workflow_dispatch: # Manual trigger
 
 
