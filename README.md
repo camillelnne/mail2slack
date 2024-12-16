@@ -1,5 +1,5 @@
 # mail2slack
-This script checks your email inbox for new messages and forwards them to a specified Slack channel via an Incoming Webhook. I created to centralize communication for the association Fix N'Replaec 🐤.
+This script checks your email inbox for new messages and forwards them to a specified Slack channel via an Incoming Webhook. This was initially created to centralize communication for the association Fix N'Replace 🐤, feel free to use it for your own needs!
 
 ## Features
 - Fetches unread emails from your inbox.
