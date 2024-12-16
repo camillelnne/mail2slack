@@ -37,6 +37,10 @@ mail.select("inbox")
 status, messages = mail.search(None, "(UNSEEN)")
 messages = messages[0].split()
 
+if not messages:
+    print("No new emails to process")
+    mail.logout()
+    exit()
 
 # Process each email and forward to Slack
 for mail_id in messages:
